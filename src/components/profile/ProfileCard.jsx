@@ -1,9 +1,10 @@
 import { Profile } from './Profile';
 import PropTypes from 'prop-types';
+import { ProfileCardContainer } from './Profile.styled';
 
 export const ProfileCard = ({ user }) => {
   return (
-    <>
+    <ProfileCardContainer>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -13,7 +14,7 @@ export const ProfileCard = ({ user }) => {
         views={user.stats.followers}
         likes={user.stats.followers}
       />
-    </>
+    </ProfileCardContainer>
   );
 };
 

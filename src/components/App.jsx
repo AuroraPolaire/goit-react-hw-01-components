@@ -10,9 +10,12 @@ import { FriendList } from './friendList/FriendList';
 import transactions from 'components/transactionHistory/transactions.json';
 import { TransactionHistory } from 'components/transactionHistory/TransactionHistory';
 
+import { GlobalStyle } from './App.styled';
+
 export const App = () => {
   return (
     <>
+      <GlobalStyle />
       <ProfileCard user={user} />
       <StatsCard stats={data} title={'upload stats'} />
       <FriendList friends={friends} />
