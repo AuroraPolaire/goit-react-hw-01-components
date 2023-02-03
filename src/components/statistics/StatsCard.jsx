@@ -12,7 +12,7 @@ export const StatsCard = ({ stats, title }) => {
   return (
     <>
       <Container>
-        <StatsHeading>{title}</StatsHeading>
+        {title && <StatsHeading>{title}</StatsHeading>}
         <StatList>
           {stats.map(({ id, label, percentage }) => (
             <li
