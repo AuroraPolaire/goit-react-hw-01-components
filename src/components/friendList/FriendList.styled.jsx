@@ -42,7 +42,7 @@ export const AvatarImg = styled.img`
 `;
 
 export const FriendsName = styled.p`
-  font-size: 20px;
+  font-size: 22px;
   color: black;
   font-weight: 500;
 `;
