@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { TransactionEvent } from 'components/transactionHistory/TransactionEvent';
+import { TransactionEvent } from 'components/TransactionHistory/TransactionEvent';
 
 import { Table } from './TransactionHistory.styled';
 
